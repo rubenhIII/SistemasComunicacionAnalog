@@ -1,0 +1,5 @@
+# 1. Primero configurar la política
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+# 2. Si aún hay problemas, usar esta opción más permisiva (solo para desarrollo)
+Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope CurrentUser
